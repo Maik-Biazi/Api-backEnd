@@ -1,0 +1,14 @@
+{
+    "type":"postgres",
+    "host":"localhost",
+    "port": 5432,
+    "username":"postgres",
+    "password":"pa$$w0rd",
+    "database":"backend",
+    "migrations":[
+        "./src/database/migrations/*.ts"
+    ],
+    "cli":[
+        "./src/database/migrations"
+    ]
+}
